@@ -72,7 +72,7 @@ const checkLetter = (button) => {
     }
   }
   //remove hearts for incorrect guesses
-    if (letterFound === null) {
+      if (letterFound === null) {
       let li = document.getElementsByClassName('tries');
       const hearts = li[missed].firstElementChild;
       hearts.setAttribute('src', 'images/lostHeart.png');
